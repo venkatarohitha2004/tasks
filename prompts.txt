@@ -1,0 +1,41 @@
+Create a Factory Monitoring System in Python that:
+
+Tracks machines and their sensors (Temperature, Pressure, Vibration).
+
+Calculates machine health based on sensor readings.
+
+Generates alerts if readings are outside safe limits or if sensors are missing.
+
+Loads sensor data from a CSV file.
+
+Supports real-time updates and batched updates.
+
+Displays a report showing total sensors, health score, average/min/max readings, and alerts.
+
+Code should be modular (separate files for Sensor, Machine, FactoryMonitor, and main script) and well-structured.
+//to generate unit test cases i gave those test case and generate test cases using above conditions.
+Generate unit test cases in JavaScript using Jest for a Factory Monitoring System
+// to execute unit test cases "how to execute unit test cases"
+generate unit test cases in JavaScript using Jest for a Factory Monitoring System
+// FOr task 2 
+I have the following messy JavaScript code that has:
+
+inconsistent formatting
+
+syntax errors
+
+unclear variable names
+
+redundant or inefficient logic
+
+Please refactor it to:
+
+Correct all syntax errors
+
+Use consistent and readable formatting
+
+Rename variables to be meaningful
+
+Remove redundant code
+
+Preserve the original functionality
