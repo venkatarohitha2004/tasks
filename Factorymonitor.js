@@ -72,7 +72,9 @@ class FactoryMonitor {
   // ===== Load CSV =====
   loadFromCSV(filePath) {
     if (!fs.existsSync(filePath)) throw new Error("CSV file not found");
-    const data = fs.readFileSync(filePath, "utf8").trim().split("\n");
+    const fileContent = fs.readFileSync(filePath, "utf8");
+    if (fileContent.trim() === "") throw new Error("CSV file is empty");
+    const data = fileContent.trim().split("\n");
     const header = data.shift(); // remove header row
 
     for (const line of data) {
