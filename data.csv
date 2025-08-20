@@ -1,0 +1,7 @@
+MachineID,SensorID,Type,Reading
+M1,S1,Temperature,100
+M1,S2,Pressure,40
+M1,S3,Vibration,70
+M2,S4,Temperature,120
+M2,S5,Pressure,250
+M2,S6,Vibration,1.5

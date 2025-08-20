@@ -1,0 +1,15 @@
+{
+  "name": "factory-monitor",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Factory machine health monitor with CSV input",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js machines.csv"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
+
+
